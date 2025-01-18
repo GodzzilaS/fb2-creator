@@ -15,7 +15,7 @@ command = [
     "--clean",
     "--noconsole",
     "--optimize=0",
-    f"--distpath={name_of_py}.dist",
+    f"--distpath=output",
     f"--workpath={name_of_py}.build",
     f"--specpath={name_of_py}.build",
     f"{name_of_py}.py"

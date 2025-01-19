@@ -14,10 +14,11 @@ command = [
     f"--name={name_of_exe}",
     "--clean",
     "--noconsole",
-    "--optimize=0",
+    "--optimize=2",
     f"--distpath=output",
     f"--workpath={name_of_py}.build",
     f"--specpath={name_of_py}.build",
+    "--icon=../ico/ico.ico",
     f"{name_of_py}.py"
 ]
 
